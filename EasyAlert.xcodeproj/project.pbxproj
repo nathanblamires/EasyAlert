@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB2CAB21C9FA44F008AE371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB11C9FA44F008AE371 /* AppDelegate.swift */; };
+		8DB2CAB41C9FA44F008AE371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB31C9FA44F008AE371 /* ViewController.swift */; };
+		8DB2CAB71C9FA44F008AE371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB51C9FA44F008AE371 /* Main.storyboard */; };
+		8DB2CAB91C9FA44F008AE371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB81C9FA44F008AE371 /* Assets.xcassets */; };
+		8DB2CABC1C9FA44F008AE371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CABA1C9FA44F008AE371 /* LaunchScreen.storyboard */; };
+		8DB2CAC61C9FA70C008AE371 /* EasyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */; };
+		8DB2CAC81C9FBC9B008AE371 /* EasyAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */; };
+		8DB2CACC1C9FD746008AE371 /* SimpleAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DB2CAAE1C9FA44F008AE371 /* EasyAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB2CAB11C9FA44F008AE371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB2CAB31C9FA44F008AE371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DB2CAB61C9FA44F008AE371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB2CAB81C9FA44F008AE371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB2CABB1C9FA44F008AE371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB2CABD1C9FA44F008AE371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAlertController.swift; sourceTree = "<group>"; };
+		8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAlertAction.swift; sourceTree = "<group>"; };
+		8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAlertProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB2CAAB1C9FA44F008AE371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D9884CD1CA50E9200A7FB72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2CAB51C9FA44F008AE371 /* Main.storyboard */,
+				8DB2CABA1C9FA44F008AE371 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8D9884CE1CA50E9B00A7FB72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2CAB81C9FA44F008AE371 /* Assets.xcassets */,
+				8DB2CABD1C9FA44F008AE371 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8DB2CAA51C9FA44F008AE371 = {
+			isa = PBXGroup;
+			children = (
+				8DB2CAB01C9FA44F008AE371 /* EasyAlert */,
+				8DB2CAAF1C9FA44F008AE371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB2CAAF1C9FA44F008AE371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2CAAE1C9FA44F008AE371 /* EasyAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB2CAB01C9FA44F008AE371 /* EasyAlert */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2CAC41C9FA687008AE371 /* Sample App */,
+				8DB2CAC31C9FA680008AE371 /* Framework */,
+			);
+			path = EasyAlert;
+			sourceTree = "<group>";
+		};
+		8DB2CAC31C9FA680008AE371 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */,
+				8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */,
+				8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		8DB2CAC41C9FA687008AE371 /* Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				8D9884CE1CA50E9B00A7FB72 /* Resources */,
+				8D9884CD1CA50E9200A7FB72 /* Views */,
+				8DB2CAB11C9FA44F008AE371 /* AppDelegate.swift */,
+				8DB2CAB31C9FA44F008AE371 /* ViewController.swift */,
+			);
+			name = "Sample App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB2CAAD1C9FA44F008AE371 /* EasyAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB2CAC01C9FA44F008AE371 /* Build configuration list for PBXNativeTarget "EasyAlert" */;
+			buildPhases = (
+				8DB2CAAA1C9FA44F008AE371 /* Sources */,
+				8DB2CAAB1C9FA44F008AE371 /* Frameworks */,
+				8DB2CAAC1C9FA44F008AE371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAlert;
+			productName = EasyAlert;
+			productReference = 8DB2CAAE1C9FA44F008AE371 /* EasyAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB2CAA61C9FA44F008AE371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nathan Blamires";
+				TargetAttributes = {
+					8DB2CAAD1C9FA44F008AE371 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DB2CAA91C9FA44F008AE371 /* Build configuration list for PBXProject "EasyAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB2CAA51C9FA44F008AE371;
+			productRefGroup = 8DB2CAAF1C9FA44F008AE371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB2CAAD1C9FA44F008AE371 /* EasyAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB2CAAC1C9FA44F008AE371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB2CABC1C9FA44F008AE371 /* LaunchScreen.storyboard in Resources */,
+				8DB2CAB91C9FA44F008AE371 /* Assets.xcassets in Resources */,
+				8DB2CAB71C9FA44F008AE371 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB2CAAA1C9FA44F008AE371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB2CAB41C9FA44F008AE371 /* ViewController.swift in Sources */,
+				8DB2CAC61C9FA70C008AE371 /* EasyAlertController.swift in Sources */,
+				8DB2CACC1C9FD746008AE371 /* SimpleAlertProtocol.swift in Sources */,
+				8DB2CAC81C9FBC9B008AE371 /* EasyAlertAction.swift in Sources */,
+				8DB2CAB21C9FA44F008AE371 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DB2CAB51C9FA44F008AE371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB2CAB61C9FA44F008AE371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB2CABA1C9FA44F008AE371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB2CABB1C9FA44F008AE371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB2CABE1C9FA44F008AE371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB2CABF1C9FA44F008AE371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB2CAC11C9FA44F008AE371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.EasyAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DB2CAC21C9FA44F008AE371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanblamires.EasyAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB2CAA91C9FA44F008AE371 /* Build configuration list for PBXProject "EasyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB2CABE1C9FA44F008AE371 /* Debug */,
+				8DB2CABF1C9FA44F008AE371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB2CAC01C9FA44F008AE371 /* Build configuration list for PBXNativeTarget "EasyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB2CAC11C9FA44F008AE371 /* Debug */,
+				8DB2CAC21C9FA44F008AE371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB2CAA61C9FA44F008AE371 /* Project object */;
+}
