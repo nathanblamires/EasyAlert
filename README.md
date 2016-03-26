@@ -4,8 +4,8 @@
 
 ## Samples
 
-<img src="https://cloud.githubusercontent.com/assets/4186265/14040049/53aa4260-f2b7-11e5-83f7-5b61e2046f19.gif" width="225" height="400">
-<img src="https://cloud.githubusercontent.com/assets/4186265/14040050/58a391f4-f2b7-11e5-84f1-1d73cbaa6999.gif" width="225" height="400">
+<img src="https://cloud.githubusercontent.com/assets/4186265/14058127/0d6eb7cc-f36b-11e5-8814-72f9b511ac5b.gif" width="225" height="400">
+<img src="https://cloud.githubusercontent.com/assets/4186265/14058131/1d9ee374-f36b-11e5-8248-6d326cb5a530.gif" width="225" height="400">
 
 ## Public Calls
 
