@@ -50,6 +50,7 @@ class ViewController: UIViewController {
         // create
         let alertType: EAType = (typeSegment.selectedSegmentIndex == 0) ? .Alert : .ActionSheet
         let alert = EAController(title: "The Alert Title", message: "Here is a message about this particular alert message.", type: alertType)
+        alert.updateStatusBarStyle(.LightContent)
         
         // set the animation
         var inAnimation: EAAnimationStyle = .Appear
@@ -94,6 +95,10 @@ class ViewController: UIViewController {
 
         // present
         self.presentViewController(alert, animated: false, completion: nil)
+    }
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
     }
 }
 
