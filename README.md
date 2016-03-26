@@ -71,23 +71,23 @@ func updateHandler(handler: (Void)->(Void))
 Simply import the three library files (EAProtocol.swift, EAController.swift, EAAction.swift) into your project and your ready to get alerting. Follow the simple API call to create, configure and present an alert in your own application.
 
 ## Create Alert
-To __create and alert__, simply call the following init method on the __EAController__ class
+To __create and alert__, simply call the following init method on the __EAController__ class  
 ```init(title: String?, message: String?, type: EAType)```  
 for example  
 ```let alert = EAController(title: "Title", message: "My message", type: alertType)```  
 
-Once created, you can update the styling and content of your alert using its update methods.
-```alert.updateTitleText("New Title")```  
-```alert.updateMessageText("New Message")```  
-```alert.updateAnimationStyle(show: .Appear, dismiss: .SlideDown)```   
-
-```alert.updateStatusBarStyle(.LightContent)```   
-```alert.updateFonts(titleFont, messageFont: messageFont)```  
+Once created, you can update the styling and content of your alert using its update methods.  
+```alert.updateTitleText( "New Title" )```  
+```alert.updateMessageText( "New Message" )```   
+```alert.updateAnimationStyle(show: .Appear, dismiss: .SlideDown)```  
+```alert.updateStatusBarStyle( .LightContent )```  
+  
+```alert.updateFonts(titleFont, messageFont: messageFont)```   
 ```alert.updateBackColour(UIColor.whiteColor(), itemColour: UIColor.blackColor())```    
-```alert.updateCornerRadius(5)```   
-```alert.enableBorder(false)```   
-```alert.enableShadow(true)```   
-
+```alert.updateCornerRadius( 5 )```   
+```alert.enableBorder( false )```     
+```alert.enableShadow( true )```   
+  
 ## Create Actions
 
 ## Present Alert
