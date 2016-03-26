@@ -68,7 +68,7 @@ func updateHandler(handler: (Void)->(Void))
 
 ## Setup
 
-Simply import the three library files (EAProtocol.swift, EAController.swift, EAAction.swift) into your project and your ready to get alerting. Follow the simple API call to create, configure and present an alert in your own application.
+Simply import the three library files (EAProtocol.swift, EAController.swift, EAAction.swift) into your project and your ready to get alerting! Follow the simple API call to create, configure and present an alert in your own application.
 
 ## Create Alert
 To __create and alert__, simply call the following init method on the __EAController__ class  
@@ -92,7 +92,7 @@ Actions correlate to buttons that can be selected in an alert. There are two typ
 A __StandardAction__ uses a prewritten UIButton, which can be styled using some simple method calls.  
 A __CustomButton__ gets passed a UIButton of the users own creation, enabling infinite styling/behaviour.  
 
-To create and configure a __StandardAction__, follow the following basic procedure   
+To create and configure a __StandardAction__, follow the following basic procedure
 ```  
 let action = EAStandardAction(title: "Facebook", subtitle: "Share to your wall", icon:fbImg, handler: { (Void) -> (Void) in 
     print("Action Selected")  
@@ -100,17 +100,17 @@ let action = EAStandardAction(title: "Facebook", subtitle: "Share to your wall",
 action.updateColours(UIColor.whiteColor(), itemColour: UIColor.blackColor())  
 action.updateFonts(titleFont, subtitleFont: subtitleFont)  
 action.updateCornerRadius(5, borderWidth: 2)  
-```    
+```
 (n.b. both __subtitle__ and __message__ are optionals. If nil, they will not be present.)  
   
-To create a __CustomAction__, follow the following basic procedure   
+To create a __CustomAction__, follow the following basic procedure
 ```  
 let action = EACustomAction(button: UIButton(), handler: { (Void) -> (Void) in
     print("Action Selected")
 })
 ```  
   
-To __add an action__ to an alert, use the following method  
+To __add an action__ to an alert, use the following metho
 ```  
 alert.addAction(action)  
 ```  
