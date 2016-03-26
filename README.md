@@ -81,7 +81,6 @@ Once created, you can update the styling and content of your alert using its upd
 ```alert.updateMessageText( "New Message" )```   
 ```alert.updateAnimationStyle(show: .Appear, dismiss: .SlideDown)```  
 ```alert.updateStatusBarStyle( .LightContent )```  
-  
 ```alert.updateFonts(titleFont, messageFont: messageFont)```   
 ```alert.updateBackColour(UIColor.whiteColor(), itemColour: UIColor.blackColor())```    
 ```alert.updateCornerRadius( 5 )```   
@@ -89,5 +88,38 @@ Once created, you can update the styling and content of your alert using its upd
 ```alert.enableShadow( true )```   
   
 ## Create Actions
+Actions correlate to buttons that can be selected in an alert. There are two types of actions...  
+A __StandardAction__ uses a prewritten UIButton, which can be styled using some simple method calls.  
+A __CustomButton__ gets passed a UIButton of the users own creation, enabling infinite styling/behaviour.  
 
+To create and configure a __StandardAction__, follow the following basic procedure   
+```  
+let action = EAStandardAction(title: "Facebook", subtitle: "Share to your wall", icon:fbImg, handler: { (Void) -> (Void) in 
+    print("Action Selected")  
+})  
+action.updateColours(UIColor.whiteColor(), itemColour: UIColor.blackColor())  
+action.updateFonts(titleFont, subtitleFont: subtitleFont)  
+action.updateCornerRadius(5, borderWidth: 2)  
+```    
+(n.b. both __subtitle__ and __message__ are optionals. If nil, they will not be present.)  
+  
+To create a __CustomAction__, follow the following basic procedure   
+```  
+let action = EACustomAction(button: UIButton(), handler: { (Void) -> (Void) in
+    print("Action Selected")
+})
+```  
+  
+To __add an action__ to an alert, use the following method  
+```  
+alert.addAction(action)  
+```  
+  
 ## Present Alert
+The __EAController__ class is a subclass of __UIViewController__. Therefore, to present the alert, simply call...  
+```  
+self.presentViewController(alert, animated: false, completion: nil)   
+```  
+
+## That's It!  
+Happy alerting!    
