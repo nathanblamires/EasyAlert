@@ -12,9 +12,9 @@
 		8DB2CAB71C9FA44F008AE371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB51C9FA44F008AE371 /* Main.storyboard */; };
 		8DB2CAB91C9FA44F008AE371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CAB81C9FA44F008AE371 /* Assets.xcassets */; };
 		8DB2CABC1C9FA44F008AE371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2CABA1C9FA44F008AE371 /* LaunchScreen.storyboard */; };
-		8DB2CAC61C9FA70C008AE371 /* EasyAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */; };
-		8DB2CAC81C9FBC9B008AE371 /* EasyAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */; };
-		8DB2CACC1C9FD746008AE371 /* SimpleAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */; };
+		8DB2CAC61C9FA70C008AE371 /* EAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC51C9FA70C008AE371 /* EAController.swift */; };
+		8DB2CAC81C9FBC9B008AE371 /* EAAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CAC71C9FBC9B008AE371 /* EAAction.swift */; };
+		8DB2CACC1C9FD746008AE371 /* EAProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2CACB1C9FD746008AE371 /* EAProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		8DB2CAB81C9FA44F008AE371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB2CABB1C9FA44F008AE371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB2CABD1C9FA44F008AE371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAlertController.swift; sourceTree = "<group>"; };
-		8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyAlertAction.swift; sourceTree = "<group>"; };
-		8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAlertProtocol.swift; sourceTree = "<group>"; };
+		8DB2CAC51C9FA70C008AE371 /* EAController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAController.swift; sourceTree = "<group>"; };
+		8DB2CAC71C9FBC9B008AE371 /* EAAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAction.swift; sourceTree = "<group>"; };
+		8DB2CACB1C9FD746008AE371 /* EAProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		8DB2CAC31C9FA680008AE371 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				8DB2CACB1C9FD746008AE371 /* SimpleAlertProtocol.swift */,
-				8DB2CAC51C9FA70C008AE371 /* EasyAlertController.swift */,
-				8DB2CAC71C9FBC9B008AE371 /* EasyAlertAction.swift */,
+				8DB2CACB1C9FD746008AE371 /* EAProtocol.swift */,
+				8DB2CAC51C9FA70C008AE371 /* EAController.swift */,
+				8DB2CAC71C9FBC9B008AE371 /* EAAction.swift */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB2CAB41C9FA44F008AE371 /* ViewController.swift in Sources */,
-				8DB2CAC61C9FA70C008AE371 /* EasyAlertController.swift in Sources */,
-				8DB2CACC1C9FD746008AE371 /* SimpleAlertProtocol.swift in Sources */,
-				8DB2CAC81C9FBC9B008AE371 /* EasyAlertAction.swift in Sources */,
+				8DB2CAC61C9FA70C008AE371 /* EAController.swift in Sources */,
+				8DB2CACC1C9FD746008AE371 /* EAProtocol.swift in Sources */,
+				8DB2CAC81C9FBC9B008AE371 /* EAAction.swift in Sources */,
 				8DB2CAB21C9FA44F008AE371 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         let alertType: EAType = (typeSegment.selectedSegmentIndex == 0) ? .Alert : .ActionSheet
         let alert = EAController(title: "The Alert Title", message: "Here is a message about this particular alert message.", type: alertType)
         alert.updateStatusBarStyle(.LightContent)
-        
+
         // set the animation
         var inAnimation: EAAnimationStyle = .Appear
         var outAnimation: EAAnimationStyle = .Appear
@@ -80,7 +80,6 @@ class ViewController: UIViewController {
         // add actions
         for _ in 0..<self.numberOfButtons {
             
-            // alert.addAction(SimpleAlertAction(title: "Alert", subtitle: "This is a message", icon: UIImage(named:"facebook"), handler: { (Void) -> (Void) in }))
             let action = EAStandardAction(title: "Option", subtitle: nil, icon: nil, handler: { (Void) -> (Void) in })
             alert.addAction(action)
 
